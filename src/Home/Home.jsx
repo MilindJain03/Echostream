@@ -40,7 +40,7 @@ function Home() {
 
       // console.log("inside updatepost: ", email);
 
-      const resp = await axios.post(`https://echostream-api.onrender.com/post/feeds`, {
+      const resp = await axios.post(`https://echostream-api-z7ea.onrender.com/post/feeds`, {
         email,
       });
 

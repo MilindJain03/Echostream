@@ -17,7 +17,7 @@ function App() {
   const isLoggedin = useSelector((state) => state.authReducer.isLoggedin);
   const id = useSelector((state) => state.authReducer.id);
   const socket = io.connect(
-    `https://echostream-api.onrender.com` || "http://localhost:3001"
+    `https://echostream-api-z7ea.onrender.com/` || "http://localhost:3001"
   );
 
   return (

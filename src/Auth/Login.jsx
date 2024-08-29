@@ -70,7 +70,7 @@ function Login() {
         formValues.email = formValues.email.trim();
         try {
           const resp = await axios.post(
-            `https://echostream-api.onrender.com/auth/login`,
+            `https://echostream-api-z7ea.onrender.com/auth/login`,
             formValues
           );
           if (resp.data.code === 200) {
